@@ -485,7 +485,9 @@ list-style: none;
   border-radius: 50%;
   background-color: var(--footericon);
   fill: var(--white);
+   transition: 250ms background-color var(--transition);
 }
+
 /* modal window */
 
 .backdrop {
@@ -512,8 +514,8 @@ list-style: none;
 }
 
 .is-hidden {
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -522,6 +524,7 @@ list-style: none;
 }
 
 .btn-modal-close {
+  position: absolute;
   width: 30px;
   height: 30px;
   background-color: var(--white);
@@ -532,7 +535,6 @@ list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   top: 8px;
   right: 8px;
 }
