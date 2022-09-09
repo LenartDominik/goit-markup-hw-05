@@ -493,8 +493,8 @@ list-style: none;
 /* modal window */
 
 .backdrop {
-  display: flex;
   position: fixed;
+  display: flex;
   background-color: rgba(0, 0, 0, 0.2);
   left: 0;
   top: 0;
@@ -504,7 +504,7 @@ list-style: none;
 }
 
 .modal-box {
-  position: relative;
+  position: absolute;
   width: 528px;
   height: 581px;
   background-color: var(--white);
