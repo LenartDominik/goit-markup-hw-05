@@ -474,8 +474,6 @@ list-style: none;
 }
 .footer-symbols {
   display: flex;
-  /* align-items: center; */
-  /* justify content: center; */
   gap: 10px;
   margin-left: 70px;
   list-style: none;
