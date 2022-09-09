@@ -117,7 +117,7 @@ padding-bottom: 94px;
   transition: 250ms color var(--transition);
 }
 .current-link::after {
-  content: '';
+  content: " ";
   display: block;
   width: 100%;
   height: 4px;
@@ -253,7 +253,7 @@ position: relative;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  padding: 27px 0;
+  padding: 27px 0px;
   color: var(--white);
   background-color: rgba(47, 48, 58, 0.8);
 }
