@@ -83,7 +83,7 @@ p {
   flex-direction: row;
   padding: 25px 0 24px 0;
   display: flex;
-  /* border-bottom: 1px solid var(--lightcream); */
+  border-bottom: 1px solid var(--lightcream);
 }
 .logo-style {
   font-family: "Raleway";
