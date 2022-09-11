@@ -39,6 +39,12 @@ padding-bottom: 94px;
 }
 img {display: block}
 
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .footer-links:hover, 
 .footer-links:focus, 
 .link-style:focus, 
@@ -240,7 +246,7 @@ color: var(--iconcolor);
 position: relative;
 }
 .img-label {
-  /* display: block; */
+  display: block;
   position: absolute;
   bottom: 0;
   left: 0;
