@@ -482,7 +482,7 @@ list-style: none;
 }
 .footer-links {
   color: var(--footerlinks);
-  transition: 250ms color var(--transition-fn);
+  transition: 250ms color var(--transition);
 }
 .footer-container {
   flex-direction: row;
