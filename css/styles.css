@@ -83,6 +83,7 @@ p {
   flex-direction: row;
   padding: 25px 0 24px 0;
   display: flex;
+  /* border-bottom: 1px solid var(--lightcream); */
 }
 .logo-style {
   font-family: "Raleway";
@@ -144,7 +145,7 @@ p {
 display: flex;
 align-items: center;
 justify-content: center;
-transition: 250ms fill var(--transition);
+transition: 250ms fill var(--transition), 250ms color var(--transition);
 }
 .symbols-header:hover,
 .symbols-header:focus {
