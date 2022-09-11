@@ -133,6 +133,7 @@ p {
 
 .contact-link-style {
   color: var(--grey);
+  fill: var(--grey);
   font-weight: 500;
   transition: 250ms color var(--transition);
 }
@@ -140,7 +141,6 @@ p {
   text-decoration: none;
 }
 .symbols-header {
-fill: var(--grey);
 display: flex;
 align-items: center;
 justify-content: center;
