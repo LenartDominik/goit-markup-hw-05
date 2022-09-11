@@ -83,8 +83,11 @@ p {
   flex-direction: row;
   padding: 25px 0 24px 0;
   display: flex;
-  /* border-bottom: 1px solid var(--lightcream); */
 }
+.header-line-border {
+  border-bottom: var(--lightcream) solid 1px;
+}
+
 .logo-style {
   font-family: "Raleway";
   color: var(--black);
